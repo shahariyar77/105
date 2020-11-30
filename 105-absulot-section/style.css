@@ -1,0 +1,71 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.absulote-bg-1::after{
+    background-image: url(img/background.jpg);
+}.absulote-bg-2::after{
+    background-image: url(img/background2.jpg);
+}
+
+
+/*========================   Nav manu ==================*/
+
+
+.section-paddign {
+  padding: 80px 0;
+ position: relative;
+  z-index: 1;
+}
+.section-paddign.absulote-bg-1::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60%;
+	height: 100%;
+	content: "";
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+.section-paddign.absulote-bg-2::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  content: "";
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.section-paddign.absulote-bg-1, .section-paddign.absulote-bg-2{
+   margin: 40px 0;
+}
+.section-paddign.absulote-bg-2 {
+  position: relative;
+  z-index: 1;
+}
+.box-contante {
+	padding: 50px;
+	box-shadow: 0 0 5px#ccc;
+	text-align: center;
+	background: #fff;
+}
+
+.box-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	background: #ffce43;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+
+
+
